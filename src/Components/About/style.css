@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran:400,700,800,900&display=swap');
+
+@fontface {
+    font-family: 'Yantramanav', sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Yantramanav&display=swap');
+  }
+  h2{
+    font-family: 'Yantramanav', sans-serif;
+    
+}
+.navBar > .active{
+    background: url('../../NavImg.jpg');
+    background-size: 100% 100%;
+    color:transparent;
+    -webkit-background-clip:text;
+    cursor: pointer ;
+}
+
+.header{
+    height: 100vh;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.header__text-box{
+    font-family: 'Yantramanav', sans-serif;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.heading-primary{
+    color: #fff;
+    
+
+    backface-visibility: hidden; 
+    /* to fix animation problem */
+    margin-bottom: 6rem;
+}
+.heading-primary--main{
+    display: block;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 5rem;
+    font-weight: 600;
+    letter-spacing: 0.5rem;
+     background: url('../NameImg.jpg');
+    background-size: 100% 100%;
+    color:transparent;  
+    -webkit-background-clip:text;
+    /* ANIMATION  */
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+   
+    /* animation-iteration-count: 3; */
+    /* animation-delay: 1s; */
+}
+.heading-primary-container{
+    /* width: 80rem;
+    text-align: center; */
+    margin: 0 100px;
+}
+.heading-primary--sub{
+    max-width: 100%;
+    display: block;
+    text-align: justify;
+    font-size: 22px;
+    font-weight: 50;
+    letter-spacing: .1rem;
+    font-family: 'Yantramanav', sans-serif;
+    opacity: 0.85;
+    /* ANIMATION */
+    animation-name: moveInRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+.user {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: url('./Thiago.jpg');
+    animation-name: moveInRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+/* This is how we can created an animation in css */
+@keyframes moveInLeft{
+    /* where animation should start */
+    0%{
+        opacity: 0;
+        transform: translateX(-10rem);
+        /* x means the position that I want my animation to start! */
+    }
+
+    80%{
+        transform: translateX(1rem);
+    }
+    /* finish */
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInRight{
+    0%{
+        opacity: 0;
+        transform: translateX(10rem);
+    }
+
+    80%{
+        transform: translateX(-1rem);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInBottom{
+    0%{
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+/* styling bottom, super useful */

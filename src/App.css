@@ -1,38 +1,31 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Catamaran:400,700,800,900&display=swap');
+.navBar > .active{
+    background: url('./NavImg.jpg');
+    background-size: 100% 100%;
+    color:transparent;
+    -webkit-background-clip:text;
+    cursor: pointer ;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#nameTitle{
+    background: url('./Components/NameImg.jpg');
+    background-size: 100% 100%;
+    color:transparent;  
+    -webkit-background-clip:text;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+#about{
+    /* margin: auto; */
+    
+}
+
+
+@fontface {
+    font-family: 'Catamaran', sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Catamaran:400,700,800,900&display=swap');
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1{
+    font-family: 'Catamaran', sans-serif;
+    
 }
