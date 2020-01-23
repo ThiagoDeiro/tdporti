@@ -54,7 +54,6 @@ export default class Projects extends React.Component{
             <div className='content' id='project'>
             <div className="titleProject">
                 <h2>Projects</h2>
-                {/* <hr className="line"/> */}
             </div>
                 <div className="main">
                     {cards}
