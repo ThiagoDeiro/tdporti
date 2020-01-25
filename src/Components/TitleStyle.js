@@ -4,10 +4,14 @@ import '../App.css'
 export const Conteiner = styled.div `
     width: 100vh;
     height: 100vh;
-
 `;
+export const SubConteiner = styled.div `
+    width:100%;
+    height:100%;
 
+`
 export const BoxText = styled.div `
+    
     font-size: 30px;
     position: absolute;
     top: 50%;
