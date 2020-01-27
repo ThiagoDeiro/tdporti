@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2dca0a62458843d27ff4834fe4507e18",
+    "revision": "22c2262ba51daf20c1ab24e89fd1ec19",
     "url": "/tdporti/index.html"
   },
   {
-    "revision": "ac30f8e1d3071bc02c37",
-    "url": "/tdporti/static/css/main.13c256b2.chunk.css"
+    "revision": "750267a4d7a5163bda09",
+    "url": "/tdporti/static/css/main.d3b3f3fe.chunk.css"
   },
   {
     "revision": "016ac4c63e9c69ed767a",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tdporti/static/js/2.924d809b.chunk.js.LICENSE"
   },
   {
-    "revision": "ac30f8e1d3071bc02c37",
+    "revision": "750267a4d7a5163bda09",
     "url": "/tdporti/static/js/main.971f00dc.chunk.js"
   },
   {
