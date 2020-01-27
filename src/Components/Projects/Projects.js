@@ -3,7 +3,7 @@ import projectRuby from '../Images/projectRuby.png'
 import todolist1 from '../Images/todolist2.png'
 import mealpicker from '../Images/mealpicker.png'
 
-import { FaGithubSquare ,  FaCode } from 'react-icons/fa';
+import { FaGithubSquare ,  FaCode , FaLink} from 'react-icons/fa';
 import './Style.scss'
 export default class Projects extends React.Component{
     constructor(props) {
@@ -27,7 +27,7 @@ export default class Projects extends React.Component{
             {
                 title: "Todos",
                 photo: require( "../Images/todolist2.png" ),
-                description: "ToDo list is a simple app  to get your daily tasks in order not to miss anything.",
+                description: "ToDo list is a simple app to get your daily tasks in order not to miss anything.",
                 demo:"https://thiagodeiro.github.io/gaseifx01-project01/",
                 code:"https://github.com/ThiagoDeiro/gaseifx01-project01"
               }, 
@@ -44,8 +44,9 @@ export default class Projects extends React.Component{
                   <div class="text">{p.title}</div>
                   <div class="ImgContent"><p>{p.description}</p></div>
                   <div className="imgSocial">
-                    <a href={p.demo} class="ImgIcon" target="_blank" rel="noopener noreferrer"><FaGithubSquare></FaGithubSquare></a>
+                    <a href={p.demo} class="ImgIcon" target="_blank" rel="noopener noreferrer"><FaLink></FaLink></a>
                     <a href={p.code} class="ImgIcon" target="_blank" rel="noopener noreferrer"><FaCode></FaCode></a>
+                    
                   </div>
                 </div>
              </div>)
