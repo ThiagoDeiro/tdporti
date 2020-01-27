@@ -1,11 +1,10 @@
-
 @import url('https://fonts.googleapis.com/css?family=Catamaran:400,700,800,900&display=swap');
 
 @fontface {
     font-family: 'Yantramanav', sans-serif;
     src: url('https://fonts.googleapis.com/css?family=Yantramanav&display=swap');
   }
-  h2{
+  .projectTitle{
     font-family: 'Yantramanav', sans-serif;
     color: white;
     font-size: 5rem;
@@ -15,25 +14,23 @@
     background-size: 100% 100%;
     color:transparent;  
     -webkit-background-clip:text;
-}
-.titleProject{
     position: absolute;
     text-align: center;
-    margin: 2% -2%;
-    width: 100%;
-    height: 20px;
+    left: 40%;
+
 }
+
   .content{
     width: 100%;
     height: 100vh;
-    margin-top: 50px;
+    
   }
   .main {
     position: absolute;
     // top: 50%;
     // left: 50%;
     // transform: translate(50%, 90%);
-    margin-top: 15%;
+    margin-top: 19%;
     left: calc(46% - 39%);
     
   }
@@ -128,5 +125,4 @@
 //     border-radius: 5px;
 //     width: 50%;
 //     margin-top: -3%;
-//   }
-  
+//  

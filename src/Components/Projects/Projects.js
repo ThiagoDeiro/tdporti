@@ -52,9 +52,9 @@ export default class Projects extends React.Component{
         return(
         <div>
             <div className='content' id='project'>
-                <div className="titleProject">
-                    <h2>Projects</h2>
-                </div>
+               
+                    <h2 className='projectTitle'>Projects</h2>
+               
                     <div className="main">
                         {cards}
                     </div>

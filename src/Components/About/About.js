@@ -11,7 +11,7 @@ export default class About extends React.Component{
                          <img alt='' class='user'></img>
                     </div>
                     <div class="heading-primary--main">
-                    <h2 >About me</h2>
+                    <h2  id="aboutTitle">About me</h2>
                     </div>
                     <div class="heading-primary-container">
                         <p class="heading-primary--sub">I am a Sydney based Junior Front-End Developer with a background in law and customer service. I came upon coding with a head full of inspiration, having seen my previous workplaces transformed by web-based technologies.

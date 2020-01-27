@@ -5,9 +5,20 @@
     src: url('https://fonts.googleapis.com/css?family=Yantramanav&display=swap');
   }
   h2{
+    
     font-family: 'Yantramanav', sans-serif;
+    color: white;
+    font-size: 5rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    background: url('../NameImg.jpg');
+    background-size: 100% 100%;
+    color:transparent;  
+    -webkit-background-clip:text;
     
 }
+
+ 
 .navBar > .active{
     background: url('../../NavImg.jpg');
     background-size: 100% 100%;
