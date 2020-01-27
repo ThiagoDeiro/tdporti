@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/tdporti/static/css/main.284d79d0.chunk.css",
-    "main.js": "/tdporti/static/js/main.c5e695b9.chunk.js",
-    "main.js.map": "/tdporti/static/js/main.c5e695b9.chunk.js.map",
+    "main.css": "/tdporti/static/css/main.13c256b2.chunk.css",
+    "main.js": "/tdporti/static/js/main.971f00dc.chunk.js",
+    "main.js.map": "/tdporti/static/js/main.971f00dc.chunk.js.map",
     "runtime-main.js": "/tdporti/static/js/runtime-main.55a4754c.js",
     "runtime-main.js.map": "/tdporti/static/js/runtime-main.55a4754c.js.map",
     "static/js/2.924d809b.chunk.js": "/tdporti/static/js/2.924d809b.chunk.js",
     "static/js/2.924d809b.chunk.js.map": "/tdporti/static/js/2.924d809b.chunk.js.map",
     "index.html": "/tdporti/index.html",
-    "precache-manifest.ffa3c7f86a91634c22f825de4691e1b6.js": "/tdporti/precache-manifest.ffa3c7f86a91634c22f825de4691e1b6.js",
+    "precache-manifest.a4652446e244981f8bae233189946bae.js": "/tdporti/precache-manifest.a4652446e244981f8bae233189946bae.js",
     "service-worker.js": "/tdporti/service-worker.js",
-    "static/css/main.284d79d0.chunk.css.map": "/tdporti/static/css/main.284d79d0.chunk.css.map",
+    "static/css/main.13c256b2.chunk.css.map": "/tdporti/static/css/main.13c256b2.chunk.css.map",
     "static/js/2.924d809b.chunk.js.LICENSE": "/tdporti/static/js/2.924d809b.chunk.js.LICENSE",
     "static/media/Style.scss": "/tdporti/static/media/NameImg.4e61fbd9.jpg",
     "static/media/style.css": "/tdporti/static/media/Thiago.f1374535.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.55a4754c.js",
     "static/js/2.924d809b.chunk.js",
-    "static/css/main.284d79d0.chunk.css",
-    "static/js/main.c5e695b9.chunk.js"
+    "static/css/main.13c256b2.chunk.css",
+    "static/js/main.971f00dc.chunk.js"
   ]
 }
