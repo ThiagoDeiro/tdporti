@@ -23,15 +23,16 @@
   .content{
     width: 100%;
     height: 100vh;
+
     
   }
   .main {
     position: absolute;
-    // top: 50%;
-    // left: 50%;
-    // transform: translate(50%, 90%);
+    display: inline-flex;
+    width: 100%;
     margin-top: 19%;
-    left: calc(46% - 39%);
+    
+    // left: calc(46% - 39%);
     
   }
   
@@ -40,8 +41,8 @@
     width: 450px;
     height: 250px;
     display: inline-flex;
-    margin-left: 20px;
     border: 2px solid grey !important;
+    margin: 0 auto;
     
 }
   .image {
@@ -120,9 +121,7 @@
     justify-content: space-between;
     align-items: center;
 }
-//   .line{
-//     border: 1px solid gray;
-//     border-radius: 5px;
-//     width: 50%;
-//     margin-top: -3%;
-//  
+@media only screen and (max-width: 479px){
+
+  .main { width: 100%; height: 100%; margin-left: 50%; margin-top: 50%;}
+}

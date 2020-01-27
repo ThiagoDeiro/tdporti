@@ -4,6 +4,7 @@ import Title from './Components/Title'
 import About from './Components/About/About'
 import Projects from './Components/Projects/Projects'
 import NavBar from './Components/Navegation/NavBar'
+
 import './App.css';
 
 class App extends React.Component {
@@ -15,6 +16,7 @@ class App extends React.Component {
         <NavBar/>
         <Title/>
         <About/>
+
         <Projects/>
     </div>
   );
